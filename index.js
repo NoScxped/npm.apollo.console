@@ -23,7 +23,7 @@ const data = JSON.stringify({
 
     message: str,
     name: name,
-    type: normal
+    type: 'normal'
 
 });
 
