@@ -23,10 +23,7 @@ const data = JSON.stringify({
 
     message: str,
     name: name,
-    totalmem: os.totalmem(),
-    freemem: os.freemem(),
-    version: os.version(),
-    cpu: os.cpus()
+    type: normal
 
 });
 

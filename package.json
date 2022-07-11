@@ -1,6 +1,6 @@
 {
   "name": "apollo.console",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Node Package for simple interaction with Apollo.Console",
   "main": "index.js",
   "scripts": {
