@@ -6,8 +6,12 @@ exports.setPort =  function(int){
     port = int
 }
 
-exports.setHostName = function(str){
+exports.setHostname = function(str){
     hostname = str
+}
+
+exports.setName = function(str){
+    name = str
 }
 
 exports.log = function(str){
