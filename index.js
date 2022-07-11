@@ -2,15 +2,15 @@ var name = 'Console'
 var port = 8000
 var hostname = 'localhost'
 
-export async function setPort(int){
+exports.setPort =  function(int){
     port = int
 }
 
-export async function setHostname(str){
+exports.setHostName = function(str){
     hostname = str
 }
 
-export async function log(str){
+exports.log = function(str){
 
 const http = require('http')
 var os = require('os');
