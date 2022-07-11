@@ -1,0 +1,19 @@
+{
+  "name": "apollo.console",
+  "version": "0.1.0",
+  "description": "Node Package for simple interaction with Apollo.Console",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noscxped/npm.apollo.console.git"
+  },
+  "author": "Apollo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noscxped/npm.apollo.console/issues"
+  },
+  "homepage": "https://github.com/noscxped/npm.apollo.console#readme"
+}
