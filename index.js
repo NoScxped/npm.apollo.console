@@ -54,9 +54,7 @@ const req = http.request(options, (res) => {
         console.log('Body: ', JSON.parse(data));
     });
 
-}).on("error", (err) => {
-    console.log("Error: ", err.message.toString());
-});
+}).on("error", (err) => {});
 
 req.write(data);
 req.end();
